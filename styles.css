@@ -1,0 +1,247 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* header */
+.contenter header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+}
+
+.contenter header .list ul {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.contenter header .list ul li {
+    cursor: pointer;
+}
+
+/* end header */
+
+
+/* section1 */
+.contenter main .section1 {
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.section1 .services h1 {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.section1 .services h1 span {
+    color: #03a9f4;
+}
+
+.section1 .contant {
+    padding: 0 290px 40px;
+    line-height: 25px;
+}
+
+/* end section1 */
+
+/* section2 */
+
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.section2 div {
+    width: calc((100% / 3) - 90px);
+    text-align: center;
+}
+
+.section2 div .img {
+    width: 100%;
+    margin: auto;
+}
+
+.section2 div .img img {
+    width: 80px;
+    height: 80px;
+}
+
+.section2 div p {
+    color: #9898a6;
+    margin-top: 10px;
+}
+
+/* end section2 */
+
+/* section3 */
+.section3 {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.section3 .contant {
+    width: 40%;
+}
+
+.section3 .contant h2 {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.section3 .contant p {
+    width: 100%;
+    padding: 20px;
+    line-height: 25px;
+}
+
+/* end section3 */
+
+/* section4 */
+.section4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+}
+
+.section4 .service,
+.section4 .design,
+.section4 .clints {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 350px;
+    height: 150px;
+}
+
+.section4 div p:first-child {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.section4 .service {
+    background-color: #b33939;
+}
+
+.section4 .design {
+    background-color: #227093;
+}
+
+.section4 .clints {
+    background-color: #218c74;
+}
+
+/* end section4 */
+
+/* section5 */
+.section5 {
+    background-color: #f6f6f6;
+    padding: 50px;
+}
+
+.section5 .title {
+    text-align: center;
+}
+
+.section5 .list {
+    width: 900px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+.section5 .list div {
+    margin: 30px;
+    font-weight: bold;
+    width: 110px;
+    text-align: end;
+    font-size: 1.3rem;
+}
+
+.section5 .list div::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-top: -6px;
+}
+
+.section5 .list div::before {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    padding-right: 10px;
+    height: 40px;
+    background-color: #03a9f4;
+    margin-left: 10px;
+    margin-top: -6px;
+    z-index: 2;
+    left: 140px;
+
+}
+
+.section5 .list div:nth-child(1)::before {
+    content: '60%';
+    width: 60%;
+}
+
+.section5 .list div:nth-child(2)::before {
+    content: '70%';
+    width: 70%;
+}
+
+.section5 .list div:nth-child(3)::before {
+    content: '80%';
+    width: 80%;
+}
+
+.section5 .list div:nth-child(4)::before {
+    content: '65%';
+    width: 65%;
+}
+
+.section5 .list div:nth-child(5)::before {
+    content: '90%';
+    width: 90%;
+}
+
+/* end section5 */
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color: #03a9f4;
+    text-decoration: none;
+}
+
+/* end footer */
